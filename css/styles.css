@@ -16,4 +16,40 @@ html {
 
 *, *:before, *:after {
    box-sizing: inherit;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+body, footer{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 940px;
+}
+
+h1,h2,h3{
+  font-family: "Montserrat";
+}
+h4, p, li, button {
+  font-family: "Open-Sans";
+}
+
+ul{
+  list-style: none;
+}
+
+.sitetop {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 800px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }
