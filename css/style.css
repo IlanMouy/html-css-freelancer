@@ -204,7 +204,9 @@ color:#9aa0ab;
   color: #465065;
 }
 
-
+.portext h2, .team h2{
+  font-size: 2em;
+}
 /*=====================Site Bottom=============================*/
 
 .team::before{
