@@ -44,7 +44,9 @@ h1 {
 h2,h3 {
     text-transform: uppercase;
   }
-
+h3 {
+  font-size: 1em;
+}
 ul{
   list-style: none;
 }
@@ -197,3 +199,32 @@ main p{
 /*.portfolio section p{
   color:#9aa0ab;
 }*/
+
+/*=====================Site Bottom=============================*/
+.timg {
+  border-radius: 60px;
+  margin-right: -23px;
+}
+
+.teampeople{
+  display: flex;
+  justify-content: space-between;
+}
+
+.teampeople>section{
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teampeople>section p:first-of-type{
+  color:  #f0454c;
+}
+
+.final{
+  float: right;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+/*=====================Footer========================*/
