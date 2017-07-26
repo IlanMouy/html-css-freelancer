@@ -20,36 +20,180 @@ html {
    max-height: 100%;
 }
 
-body, footer{
-  margin-left: 50px;
-  margin-right: 50px;
+header, main, footer{
+  margin-left: 270px;
+  margin-right: 220px;
   width: 940px;
+  color: #465065;
 }
 
 h1,h2,h3{
   font-family: "Montserrat";
+  color: #465065;
 }
-h4, p, li, button {
-  font-family: "Open-Sans";
-}
+h4,p,li,button,a {
+  font-family: "Open-Sans" sans-serif;
+  color: #465065;
+  }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  }
+
+h2,h3 {
+    text-transform: uppercase;
+  }
 
 ul{
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  }
+.button:hover{
+  color: #000;
+}
+
+/*=====================Site Top=============================*/
 
 .sitetop {
+  margin-left: 50px;
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: relative;
-  height: 800px;
-  max-width: 100%;
-  max-height: 100%;
+  height: 1050px;
+  width: 1380px;
 }
 
-nav {
-  position: absolute;
-  top: 40px;
-  right: 20px;
+nav ul{
+  position: relative;
+  top: 15px;
+  left: 570px;
+  font-size: 1.1em;
 }
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+nav i {
+  color: #f0454c;
+}
+
+header hgroup{
+  width: 550px;
+  position: relative;
+  line-height: 0.8em;
+  top: 250px;
+  left: -50px;
+}
+h1::before {
+  content: "";
+  display: block;
+  width: 60px;
+  margin-bottom: 20px;
+  border:  solid #f0454c;
+  border-width: 8px 0 0 0;
+}
+.topbutton {
+  color: white;
+  background-color: #f0454c;
+  border-radius: 8px;
+  width: 150px;
+  height: 60px;
+  text-transform: uppercase;
+  }
+
+.freelancer {
+  position: relative;
+  top: -42px;
+  left: -50px;
+  padding: 9px;
+  font-size: 1.2em;
+}
+
+.readmore{
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  top: 280px;
+  left: -50px;
+
+}
+
+/*=====================Site Middle=============================*/
+main p{
+    color:#9aa0ab;
+}
+/*======= Values =======*/
+.values {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+.values section {
+  flex-basis: 32%;
+}
+.values section h2{
+    text-transform: uppercase;
+    line-height: 0.2em;
+}
+.values section p::first-line{
+  color:#465065;
+}
+
+/*.values section p{
+  color:#9aa0ab;
+}*/
+
+.values section::before{
+  content: "";
+  display: block;
+  width: 60px;
+  border:  solid #f0454c;
+  border-width: 8px 0 0 0;
+}
+
+.more1 {
+  color: #f0454c;
+}
+
+/*======= Portfolio =======*/
+
+.portfolio {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.portfolio section {
+  flex-basis: 47%;
+}
+
+.portext {
+  padding-top: 50px;
+}
+
+.portext::before{
+  content: "";
+  display: block;
+  width: 60px;
+  border:  solid #f0454c;
+  border-width: 8px 0 0 0;
+}
+
+/*.portfolio section p{
+  color:#9aa0ab;
+}*/
