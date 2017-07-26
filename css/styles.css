@@ -116,7 +116,7 @@ h1::before {
 
 .freelancer {
   position: relative;
-  top: -42px;
+  top: -45px;
   width: 150px;
   height: 70px;
   left: -50px;
@@ -149,7 +149,7 @@ main p{
 
 
 .values section {
-  flex-basis: 32%;
+  flex-basis: 31%;
 }
 .values section h2{
   text-transform: uppercase;
